@@ -149,7 +149,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero.jpg);
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -215,6 +215,20 @@ p {
   letter-spacing: 0.02em;
 }
 
+.features-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.features-icon {
+  flex-shrink: 0;
+}
+
 .team {
   background-color: #f4f4fd;
 }
@@ -265,6 +279,36 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.icon-icon {
+  fill: #ffffff;
 }
 
 .portfolio-list {
@@ -314,6 +358,7 @@ p {
 .hell {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
 }
 
 .foot-logo {
@@ -337,4 +382,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.social-media-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
