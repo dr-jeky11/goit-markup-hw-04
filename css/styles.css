@@ -494,6 +494,6 @@ p {
 }
 
 .icon-link-footer:hover,
-.icon-link:focus {
+.icon-link-footer:focus {
   background-color: #31d0aa;
 }
