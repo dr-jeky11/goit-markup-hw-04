@@ -437,7 +437,7 @@ p {
   fill: #f4f4fd;
 }
 
-.icon-icon-footer:hover,
-.icon-icon-footer:focus {
+.footer:hover,
+.footer:focus {
   background-color: #31d0aa;
 }
